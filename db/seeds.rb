@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+image_list = []                                                         
+(1..20).each do |image|                                                       
+  image_list <<  Image.create!(url: "/image#{image}.jpg")                 
+end                                                                        

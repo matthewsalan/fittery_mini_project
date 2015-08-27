@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: "images#index"
+  root to: "static_pages#index"
+  resources :images, only: [:index]
 end
