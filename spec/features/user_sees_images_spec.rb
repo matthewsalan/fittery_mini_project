@@ -6,6 +6,6 @@ feature "User sees images" do
 
     click_link "Click To See Images"
 
-    expect(page).to have_css 'a', text: 'b i k e r' 
+    expect(page).to have_css 'a', text: 'b i k e r y' 
   end
 end
