@@ -1,0 +1,140 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *
+ *
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+.container-fluid {
+  width: 100%;
+}
+
+
+#sidebar {
+  border: 1px solid #efefef;
+  min-height: 500px;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 20px;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  position: absolute;
+  z-index: 1500;
+  width: 100%;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  height: 62px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.nav.navbar-nav {
+  margin-right: 280px;
+  display: inline-block;
+}
+.nav.navbar-nav li {
+  padding-right: 10px 15px;
+  padding-top: 6px;
+  margin: 0;
+}
+
+.nav.navbar-nav li a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#banner { 
+  margin-bottom: 30px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  max-width: 100%;
+}
+
+.navbar_logo p {
+  margin-top: 4px;
+  font-family: Lora;
+  font-size: 37px;
+  margin-left: 200px;
+  color: #fff;
+  display: inline-block;
+}
+
+.row.header h1 {
+  margin-top: -15%;
+  text-align: center;
+  font-family: Lora;
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+
+.sidebar_list li {
+  list-style-type: none;
+}
+
+.page-info {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+.page-info h3 {
+  margin-left: 150px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+.page-info p {
+  font-size: 15px;
+  float: right;
+  margin-right: 150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  border: 1px solid #efefef;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.description {
+  border-top: 1px solid #efefef;
+}
+
+#footer {
+  margin-top: 30px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  max-width: 100%;
+  background-color: #363636;
+}
