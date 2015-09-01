@@ -8,5 +8,5 @@
 
 image_list = []                                                         
 (1..20).each do |image|                                                       
-  image_list <<  Image.create!(url: "/image#{image}.jpg", description: "Description for this bike")                 
+  image_list <<  Image.create!(url: "/image#{image}.jpg", description: "Description for this bike", price: 999)                 
 end                                                                        
