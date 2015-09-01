@@ -1,7 +1,7 @@
 require "rails_helper"
 
-feature "User sees images" do 
-  scenario "when they visit images url" do 
+feature "User visits images page" do 
+  scenario "successfully" do 
     visit root_path
 
     click_link "Click To See Images"
