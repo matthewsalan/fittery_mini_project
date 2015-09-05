@@ -116,13 +116,13 @@ a:hover {
 
 .page-info {
   margin-bottom: 30px;
-  border-bottom: 1px solid #efefef;
+  /*border-bottom: 1px solid #efefef;*/
   max-width: 100%;
   padding-bottom: 50px;
 }
 
 .page-info h3 {
-  margin-left: 150px;
+  margin-left: 80px;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
@@ -139,9 +139,14 @@ a:hover {
 }
 
 .portfolio-item {
-  border: 1px solid #efefef;
+  border: 1px solid #e1e1e1;
   margin-bottom: 30px;
   padding: 5px;
+}
+
+.img-responsive {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .description {
@@ -149,7 +154,7 @@ a:hover {
 }
 
 #footer {
-  margin-top: 30px;
+  margin-top: 10px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -157,6 +162,7 @@ a:hover {
   min-height: 300px;
   max-width: 100%;
   background-color: #363636;
+  padding-bottom: 30px;
 }
 
 h5 {
