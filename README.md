@@ -1,6 +1,6 @@
-Link to site: https://infinite-citadel-9994.herokuapp.com/
+####Link to site: https://infinite-citadel-9994.herokuapp.com/
 
-***Project Steps***
+##Project Steps
 1. Create a new Rails application.
 2. Setup a github repo for the project to live in.
 3. Integrate bootstrap into the application.
