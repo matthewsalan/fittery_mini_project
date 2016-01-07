@@ -1,15 +1,27 @@
-<div id="page-info">
-    <div class="container">
-      <div class="col-xs-12 col-md-12">
-        <div class="page-info">
-        </div>
-        <div class="index">
-          <h1>Fittery Mini Project</h1>
-          <%= link_to "Click To See Images", images_path %>
-        </div>
-        <div class="image-show">
+<div class="container-fluid">
+  <div class="product-show">
+    <div class="divider">
+      <p><%= link_to "SHOP/ Main Paige /", images_path %></p>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="product-image">
           <%= render "image" %>
         </div>
       </div>
+
+      <div class="col-md-4">
+        <div class="product-info">
+          <p><%= @image.description %>.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur.</p>
+          <p><%= number_to_currency(@image.price) %></p>
+          <p>Sizes:</p>
+          <p>Colors:</p>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
